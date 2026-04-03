@@ -1,0 +1,16 @@
+body { font-family: Arial, sans-serif; }
+.body-admin, .body-customer { width: 1150px; margin: 0 auto; }
+.border-bottom { border-bottom: 1px solid #ccc; margin-bottom: 10px; }
+.float-left { float: left; }
+.float-right { float: right; }
+.float-clear { clear: both; }
+.inline { display: inline-block; vertical-align: top; margin-left: 20px; }
+.menu { list-style: none; padding: 0; margin: 0; }
+ul.menu li.menu { display: inline-block; margin-right: 15px; }
+.align-center { text-align: center; }
+.align-valign-center { width: 420px; margin: 100px auto; }
+.text-center { text-align: center; }
+.datatable { border-collapse: collapse; }
+.datatable th, .datatable td { padding: 8px; border: 1px solid #999; }
+.link { cursor: pointer; color: blue; }
+img.preview { object-fit: cover; border: 1px solid #ccc; }

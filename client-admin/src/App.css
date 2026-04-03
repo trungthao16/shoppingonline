@@ -1,0 +1,137 @@
+body { font-family: Arial, sans-serif; }
+.body-admin, .body-customer { width: 1150px; margin: 0 auto; }
+.border-bottom { border-bottom: 1px solid #ccc; margin-bottom: 10px; }
+.float-left { float: left; }
+.float-right { float: right; }
+.float-clear { clear: both; }
+.inline { display: inline-block; vertical-align: top; margin-left: 20px; }
+.menu { list-style: none; padding: 0; margin: 0; }
+ul.menu li.menu { display: inline-block; margin-right: 15px; }
+.align-center { text-align: center; }
+.align-valign-center { width: 420px; margin: 100px auto; }
+.text-center { text-align: center; }
+.datatable { border-collapse: collapse; }
+.datatable th, .datatable td { padding: 8px; border: 1px solid #999; }
+.link { cursor: pointer; color: blue; }
+img.preview { object-fit: cover; border: 1px solid #ccc; }
+
+.admin-home {
+  padding: 20px;
+}
+
+.admin-home-banner {
+  height: 320px;
+  border-radius: 12px;
+  overflow: hidden;
+  background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+    url('https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=1400&q=80');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.admin-home-overlay {
+  text-align: center;
+  color: white;
+}
+
+.admin-home-title {
+  font-size: 42px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.admin-home-subtitle {
+  margin-top: 12px;
+  font-size: 18px;
+}
+
+.admin-home-cards {
+  margin-top: 25px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.admin-home-card {
+  flex: 1;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.admin-home-card h3 {
+  margin-top: 0;
+  color: #222;
+}
+
+.admin-home-card p {
+  color: #555;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.align-center {
+  width: 90%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.datatable {
+  border-collapse: collapse;
+  margin: 0 auto;
+  font-size: 12px;
+}
+
+.datatable th,
+.datatable td {
+  border: 1px solid #999;
+  padding: 4px 8px;
+  text-align: center;
+}
+
+.datatable th {
+  background-color: #f2c94c;
+}
+
+.link {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.menu {
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+  padding: 0;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-clear {
+  clear: both;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
